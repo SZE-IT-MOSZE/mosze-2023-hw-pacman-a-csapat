@@ -41,3 +41,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: LevelAsset
+    uniqueID: 3361767035
+    locked: 0
+  - name: NPC
+    uniqueID: 1983055133
+    locked: 0
+  - name: PLAYER
+    uniqueID: 1336438529
+    locked: 0
