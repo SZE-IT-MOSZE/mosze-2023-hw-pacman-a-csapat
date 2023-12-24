@@ -1,0 +1,929 @@
+fileFormatVersion: 2
+guid: 17dd316705660ae4f8901585f52fe81e
+importerOverride:
+  nativeImporterType: 2089858483
+  scriptedImporterType:
+    serializedVersion: 2
+    Hash: b10b55a1aa6a1aa32521bc0cab59632e
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 768
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: Shelf1CornerRear
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 1147
+      height: 768
+    spriteID: b47c02fd859895349afff68787039b98
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 1561, y: 3328}
+  - name: Shelf1CornerRearRotated
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2314
+      y: 4
+      width: 1098
+      height: 768
+    spriteID: 90946bf60360ecc4093b7b10f7abfd28
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2314, y: 4}
+    spritePosition: {x: 3675, y: 4096}
+  - name: Shelf1RotatedRear
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3420
+      y: 4
+      width: 660
+      height: 768
+    spriteID: d98e8b04613c7e64e9f4520b73e3b6de
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3420, y: 4}
+    spritePosition: {x: 841, y: 3328}
+  - name: Shelf1Rear
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2082
+      y: 780
+      width: 660
+      height: 768
+    spriteID: 7e0b94178cf65db4fb1f81470331a8d0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2082, y: 780}
+    spritePosition: {x: 54, y: 3328}
+  - name: Shelf1Corner
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1159
+      y: 4
+      width: 1147
+      height: 768
+    spriteID: a8ce5cd2f3aaf5242a4ff833ed2f0a6a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1159, y: 4}
+    spritePosition: {x: 1561, y: 4096}
+  - name: Shelf1CornerRotated
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 780
+      width: 660
+      height: 987
+    spriteID: ca5b977af85357f41b7beb16e1d2a4bc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 780}
+    spritePosition: {x: 2870, y: 3840}
+  - name: Shelf1Rotated
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2750
+      y: 780
+      width: 660
+      height: 768
+    spriteID: e023a9f199162854082ad47a165829a5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2750, y: 780}
+    spritePosition: {x: 841, y: 4096}
+  - name: Shelf1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3418
+      y: 780
+      width: 660
+      height: 768
+    spriteID: 854ed25ae7f8e6742a9b73eb7d15fc4f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3418, y: 780}
+    spritePosition: {x: 54, y: 4096}
+  - name: Shelf2Rotated
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 672
+      y: 780
+      width: 697
+      height: 765
+    spriteID: 69289b2b00953af4ead473b11ddb5fd1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 672, y: 780}
+    spritePosition: {x: 804, y: 2560}
+  - name: Shelf2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1377
+      y: 780
+      width: 697
+      height: 765
+    spriteID: 5bf11397560aa6c439ddb51cadd009ee
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1377, y: 780}
+    spritePosition: {x: 36, y: 2560}
+  - name: Shelf3Rotated
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1550
+      y: 1775
+      width: 512
+      height: 497
+    spriteID: deb3b3029e817b54c9e7010615462a69
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1550, y: 1775}
+    spritePosition: {x: 2304, y: 2560}
+  - name: Shelf3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2070
+      y: 1775
+      width: 512
+      height: 497
+    spriteID: 7ffb8319c14b40c46828073399b5cfb7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2070, y: 1775}
+    spritePosition: {x: 1792, y: 2560}
+  - name: Fridge2Rotated
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3574
+      y: 1775
+      width: 512
+      height: 392
+    spriteID: 95ff8ef41bda52348905cfe45faaf42c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3574, y: 1775}
+    spritePosition: {x: 2561, y: 1836}
+  - name: Fridge2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 810
+      y: 2352
+      width: 512
+      height: 392
+    spriteID: 0b7c3af5ba214c94a9134e7534107740
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 810, y: 2352}
+    spritePosition: {x: 2049, y: 1836}
+  - name: Fridge1Rotated
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2352
+      width: 395
+      height: 768
+    spriteID: 3fa159fad9bf8b64588d38ccec13fd4f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2352}
+    spritePosition: {x: 3644, y: 1792}
+  - name: Fridge1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 407
+      y: 2352
+      width: 395
+      height: 768
+    spriteID: df24a638bc944a74f9c854ea417a22fd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 407, y: 2352}
+    spritePosition: {x: 3132, y: 1792}
+  - name: Cart1Rotated
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2590
+      y: 1775
+      width: 484
+      height: 437
+    spriteID: b5293b1f031c8df4aa2077c1e3317f2b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2590, y: 1775}
+    spritePosition: {x: 3343, y: 2560}
+  - name: Cart1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3082
+      y: 1775
+      width: 484
+      height: 437
+    spriteID: a23f681538671604a8a0749560b5592c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3082, y: 1775}
+    spritePosition: {x: 2831, y: 2560}
+  - name: Floor1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 774
+      y: 1775
+      width: 768
+      height: 480
+    spriteID: de014c49aca5b9a42b31f43a35fff0de
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 774, y: 1775}
+    spritePosition: {x: 1, y: 1792}
+  - name: Measurer1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1330
+      y: 2352
+      width: 288
+      height: 504
+    spriteID: 5be202d86c82a6b45a86dea61809858c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1330, y: 2352}
+    spritePosition: {x: 880, y: 1792}
+  - name: CashRegister1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1775
+      width: 762
+      height: 569
+    spriteID: 228f09e41fb07844e9a6aa3238522e28
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1775}
+    spritePosition: {x: 1283, y: 1792}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  sharedRigSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Android
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: iPhone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: WebGL
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  mosaicLayers: 1
+  characterMode: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  layerMappingOption: 2
+  generatePhysicsShape: 0
+  paperDollMode: 0
+  keepDupilcateSpriteName: 1
+  skeletonAssetReferenceID: 
+  padding: 4
+  spriteSizeExpand: 0
+  spriteCategoryList:
+    categories: []
+  spritePackingTag: 
+  resliceFromLayer: 0
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: Shelf1
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 11e2858da25b9eb478e91aeb676fe962
+    layerID: 43
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Shelf1CornerRear
+    spriteName: Shelf1CornerRear
+    isGroup: 0
+    parentIndex: 0
+    spriteID: b47c02fd859895349afff68787039b98
+    layerID: 51
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Shelf1CornerRearRotated
+    spriteName: Shelf1CornerRearRotated
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 90946bf60360ecc4093b7b10f7abfd28
+    layerID: 77
+    mosaicPosition: {x: 2314, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Shelf1RotatedRear
+    spriteName: Shelf1RotatedRear
+    isGroup: 0
+    parentIndex: 0
+    spriteID: d98e8b04613c7e64e9f4520b73e3b6de
+    layerID: 50
+    mosaicPosition: {x: 3420, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Shelf1Rear
+    spriteName: Shelf1Rear
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 7e0b94178cf65db4fb1f81470331a8d0
+    layerID: 49
+    mosaicPosition: {x: 2082, y: 780}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Shelf1Corner
+    spriteName: Shelf1Corner
+    isGroup: 0
+    parentIndex: 0
+    spriteID: a8ce5cd2f3aaf5242a4ff833ed2f0a6a
+    layerID: 46
+    mosaicPosition: {x: 1159, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Shelf1CornerRotated
+    spriteName: Shelf1CornerRotated
+    isGroup: 0
+    parentIndex: 0
+    spriteID: ca5b977af85357f41b7beb16e1d2a4bc
+    layerID: 69
+    mosaicPosition: {x: 4, y: 780}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Shelf1Rotated
+    spriteName: Shelf1Rotated
+    isGroup: 0
+    parentIndex: 0
+    spriteID: e023a9f199162854082ad47a165829a5
+    layerID: 47
+    mosaicPosition: {x: 2750, y: 780}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Shelf1
+    spriteName: Shelf1
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 854ed25ae7f8e6742a9b73eb7d15fc4f
+    layerID: 8
+    mosaicPosition: {x: 3418, y: 780}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Shelf2
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 60c0def40db8fd24e96454f38faa0307
+    layerID: 52
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Shelf2Rotated
+    spriteName: Shelf2Rotated
+    isGroup: 0
+    parentIndex: 9
+    spriteID: 69289b2b00953af4ead473b11ddb5fd1
+    layerID: 54
+    mosaicPosition: {x: 672, y: 780}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Shelf2
+    spriteName: Shelf2
+    isGroup: 0
+    parentIndex: 9
+    spriteID: 5bf11397560aa6c439ddb51cadd009ee
+    layerID: 6
+    mosaicPosition: {x: 1377, y: 780}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Shelf3
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 0afba7f5d30fb344ca82ba64325bb129
+    layerID: 55
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Shelf3Rotated
+    spriteName: Shelf3Rotated
+    isGroup: 0
+    parentIndex: 12
+    spriteID: deb3b3029e817b54c9e7010615462a69
+    layerID: 58
+    mosaicPosition: {x: 1550, y: 1775}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Shelf3
+    spriteName: Shelf3
+    isGroup: 0
+    parentIndex: 12
+    spriteID: 7ffb8319c14b40c46828073399b5cfb7
+    layerID: 5
+    mosaicPosition: {x: 2070, y: 1775}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Fridge2
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: bdf9638408d948649b15cc9550b0b0ef
+    layerID: 59
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Fridge2Rotated
+    spriteName: Fridge2Rotated
+    isGroup: 0
+    parentIndex: 15
+    spriteID: 95ff8ef41bda52348905cfe45faaf42c
+    layerID: 61
+    mosaicPosition: {x: 3574, y: 1775}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Fridge2
+    spriteName: Fridge2
+    isGroup: 0
+    parentIndex: 15
+    spriteID: 0b7c3af5ba214c94a9134e7534107740
+    layerID: 4
+    mosaicPosition: {x: 810, y: 2352}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Fridge1
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 9b8e32d5df318b249ae92d8bb6c56941
+    layerID: 62
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Fridge1Rotated
+    spriteName: Fridge1Rotated
+    isGroup: 0
+    parentIndex: 18
+    spriteID: 3fa159fad9bf8b64588d38ccec13fd4f
+    layerID: 64
+    mosaicPosition: {x: 4, y: 2352}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Fridge1
+    spriteName: Fridge1
+    isGroup: 0
+    parentIndex: 18
+    spriteID: df24a638bc944a74f9c854ea417a22fd
+    layerID: 7
+    mosaicPosition: {x: 407, y: 2352}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Cart1
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 4687b6a9cc36a174d9a5baa89acb201f
+    layerID: 65
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Cart1Rotated
+    spriteName: Cart1Rotated
+    isGroup: 0
+    parentIndex: 21
+    spriteID: b5293b1f031c8df4aa2077c1e3317f2b
+    layerID: 67
+    mosaicPosition: {x: 2590, y: 1775}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Cart1
+    spriteName: Cart1
+    isGroup: 0
+    parentIndex: 21
+    spriteID: a23f681538671604a8a0749560b5592c
+    layerID: 10
+    mosaicPosition: {x: 3082, y: 1775}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Floor1
+    spriteName: Floor1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: de014c49aca5b9a42b31f43a35fff0de
+    layerID: 68
+    mosaicPosition: {x: 774, y: 1775}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Measurer1
+    spriteName: Measurer1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 5be202d86c82a6b45a86dea61809858c
+    layerID: 9
+    mosaicPosition: {x: 1330, y: 2352}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: CashRegister1
+    spriteName: CashRegister1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 228f09e41fb07844e9a6aa3238522e28
+    layerID: 3
+    mosaicPosition: {x: 4, y: 1775}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  sharedRigPSDLayers: []
+  pSDLayerImportSetting: []
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  spriteSizeExpandChanged: 0
+  generateGOHierarchy: 0
+  textureAssetName: 
+  prefabAssetName: 
+  spriteLibAssetName: 
+  skeletonAssetName: 
+  secondarySpriteTextures: []
