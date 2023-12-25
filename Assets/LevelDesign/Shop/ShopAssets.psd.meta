@@ -99,7 +99,238 @@ ScriptedImporter:
     spritePosition: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: Shelf1CornerRear
+  - name: Shelf1RearNormalTopRightCorner
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1159
+      y: 887
+      width: 660
+      height: 986
+    spriteID: 354c087ee27dbc346ab346920bc8b9a1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1159, y: 887}
+    spritePosition: {x: 855, y: 1978}
+  - name: Shelf1RearNormalTopLeftCorner
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1159
+      y: 1881
+      width: 660
+      height: 986
+    spriteID: e0c04e9835b66df41b26840555546e45
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1159, y: 1881}
+    spritePosition: {x: 30, y: 1978}
+  - name: Shelf1BottomRightRearCross
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4870
+      width: 882
+      height: 877
+    spriteID: 7147d1ff201194c4a9acddfab941f7c9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4870}
+    spritePosition: {x: 3983, y: 1915}
+  - name: Shelf1BottomLeftRearCross
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 5755
+      width: 882
+      height: 877
+    spriteID: 414f8b8c4c29cf44c8cd5bf7c5155010
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 5755}
+    spritePosition: {x: 2948, y: 1915}
+  - name: Shelf1TopRightCross
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3108
+      width: 888
+      height: 873
+    spriteID: 5c0889ee7b423524f8c51fa3cbc75cad
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 3108}
+    spritePosition: {x: 4019, y: 3655}
+  - name: Shelf1TopLeftCross
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3989
+      width: 888
+      height: 873
+    spriteID: 28434745d3178b2448a268df238cf8c2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 3989}
+    spritePosition: {x: 2906, y: 3655}
+  - name: Shelf1BottomRightCross
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 6640
+      width: 882
+      height: 875
+    spriteID: 33f3e2101c05ae44a85cff34eb3ccddc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 6640}
+    spritePosition: {x: 3983, y: 2742}
+  - name: Shelf1BottomLeftCross
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1159
+      y: 4
+      width: 882
+      height: 875
+    spriteID: 9d3acdaa2dbe2764b994dcebe7d95649
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1159, y: 4}
+    spritePosition: {x: 2948, y: 2742}
+  - name: Shelf1RearBottomRightCorner
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1159
+      y: 2875
+      width: 660
+      height: 986
+    spriteID: 9602d5537fa299e47aad3a68c35c1d68
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1159, y: 2875}
+    spritePosition: {x: 1900, y: 3404}
+  - name: Shelf1RearTopLeftCorner
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1159
+      y: 3869
+      width: 660
+      height: 986
+    spriteID: 8dbe18fc635a58346b02eee9ecd60f7d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1159, y: 3869}
+    spritePosition: {x: 0, y: 3404}
+  - name: Shelf1RearTopRightCorner
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2332
+      width: 1098
+      height: 768
+    spriteID: 90946bf60360ecc4093b7b10f7abfd28
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2332}
+    spritePosition: {x: 739, y: 3941}
+  - name: Shelf1RearBottomLeftCorner
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -119,28 +350,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-    spritePosition: {x: 1561, y: 3328}
-  - name: Shelf1CornerRearRotated
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 2314
-      y: 4
-      width: 1098
-      height: 768
-    spriteID: 90946bf60360ecc4093b7b10f7abfd28
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 2314, y: 4}
-    spritePosition: {x: 3675, y: 4096}
+    spritePosition: {x: 690, y: 3064}
   - name: Shelf1RotatedRear
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -148,8 +358,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 3420
-      y: 4
+      x: 2049
+      y: 777
       width: 660
       height: 768
     spriteID: d98e8b04613c7e64e9f4520b73e3b6de
@@ -160,8 +370,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 3420, y: 4}
-    spritePosition: {x: 841, y: 3328}
+    uvTransform: {x: 2049, y: 777}
+    spritePosition: {x: 3485, y: 4864}
   - name: Shelf1Rear
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -169,8 +379,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 2082
-      y: 780
+      x: 2049
+      y: 1553
       width: 660
       height: 768
     spriteID: 7e0b94178cf65db4fb1f81470331a8d0
@@ -181,20 +391,20 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 2082, y: 780}
-    spritePosition: {x: 54, y: 3328}
-  - name: Shelf1Corner
+    uvTransform: {x: 2049, y: 1553}
+    spritePosition: {x: 2698, y: 4864}
+  - name: Shelf1TopRightCorner
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 1159
-      y: 4
-      width: 1147
+      x: 4
+      y: 1556
+      width: 1104
       height: 768
-    spriteID: a8ce5cd2f3aaf5242a4ff833ed2f0a6a
+    spriteID: aab86c209235acb4692275e472b182af
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -202,9 +412,51 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 1159, y: 4}
-    spritePosition: {x: 1561, y: 4096}
-  - name: Shelf1CornerRotated
+    uvTransform: {x: 4, y: 1556}
+    spritePosition: {x: 733, y: 5632}
+  - name: Shelf1TopLeftCorner
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1159
+      y: 4863
+      width: 660
+      height: 986
+    spriteID: df69e730202404446b24fecd17a6d03a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1159, y: 4863}
+    spritePosition: {x: 0, y: 5095}
+  - name: Shelf1BottomRightCorner
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1159
+      y: 5857
+      width: 660
+      height: 986
+    spriteID: 8d9061a136148c74cb24709099e15a07
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1159, y: 5857}
+    spritePosition: {x: 1900, y: 5095}
+  - name: Shelf1BottomLeftCorner
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -213,9 +465,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 780
-      width: 660
-      height: 987
-    spriteID: ca5b977af85357f41b7beb16e1d2a4bc
+      width: 1147
+      height: 768
+    spriteID: c42a22558fb137447a3c306bc934ab0e
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -224,7 +476,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 780}
-    spritePosition: {x: 2870, y: 3840}
+    spritePosition: {x: 690, y: 4755}
   - name: Shelf1Rotated
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -232,11 +484,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 2750
-      y: 780
+      x: 2049
+      y: 2329
       width: 660
       height: 768
-    spriteID: e023a9f199162854082ad47a165829a5
+    spriteID: ddc74ca585d9cde419e196c4d607d24c
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -244,8 +496,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 2750, y: 780}
-    spritePosition: {x: 841, y: 4096}
+    uvTransform: {x: 2049, y: 2329}
+    spritePosition: {x: 3527, y: 5523}
   - name: Shelf1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -253,11 +505,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 3418
-      y: 780
+      x: 2049
+      y: 3105
       width: 660
       height: 768
-    spriteID: 854ed25ae7f8e6742a9b73eb7d15fc4f
+    spriteID: cdddd00d3554ef74887821e2d027c081
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -265,8 +517,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 3418, y: 780}
-    spritePosition: {x: 54, y: 4096}
+    uvTransform: {x: 2049, y: 3105}
+    spritePosition: {x: 2698, y: 5523}
   - name: Shelf2Rotated
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -274,8 +526,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 672
-      y: 780
+      x: 1159
+      y: 6851
       width: 697
       height: 765
     spriteID: 69289b2b00953af4ead473b11ddb5fd1
@@ -286,8 +538,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 672, y: 780}
-    spritePosition: {x: 804, y: 2560}
+    uvTransform: {x: 1159, y: 6851}
+    spritePosition: {x: 891, y: 983}
   - name: Shelf2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -295,8 +547,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 1377
-      y: 780
+      x: 2049
+      y: 4
       width: 697
       height: 765
     spriteID: 5bf11397560aa6c439ddb51cadd009ee
@@ -307,8 +559,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 1377, y: 780}
-    spritePosition: {x: 36, y: 2560}
+    uvTransform: {x: 2049, y: 4}
+    spritePosition: {x: 123, y: 983}
   - name: Shelf3Rotated
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -316,8 +568,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 1550
-      y: 1775
+      x: 2049
+      y: 5433
       width: 512
       height: 497
     spriteID: deb3b3029e817b54c9e7010615462a69
@@ -328,8 +580,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 1550, y: 1775}
-    spritePosition: {x: 2304, y: 2560}
+    uvTransform: {x: 2049, y: 5433}
+    spritePosition: {x: 2230, y: 2353}
   - name: Shelf3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -337,8 +589,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 2070
-      y: 1775
+      x: 2049
+      y: 5938
       width: 512
       height: 497
     spriteID: 7ffb8319c14b40c46828073399b5cfb7
@@ -349,8 +601,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 2070, y: 1775}
-    spritePosition: {x: 1792, y: 2560}
+    uvTransform: {x: 2049, y: 5938}
+    spritePosition: {x: 1718, y: 2353}
   - name: Fridge2Rotated
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -358,8 +610,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 3574
-      y: 1775
+      x: 2049
+      y: 7333
       width: 512
       height: 392
     spriteID: 95ff8ef41bda52348905cfe45faaf42c
@@ -370,8 +622,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 3574, y: 1775}
-    spritePosition: {x: 2561, y: 1836}
+    uvTransform: {x: 2049, y: 7333}
+    spritePosition: {x: 2305, y: 1586}
   - name: Fridge2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -379,8 +631,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 810
-      y: 2352
+      x: 2049
+      y: 7733
       width: 512
       height: 392
     spriteID: 0b7c3af5ba214c94a9134e7534107740
@@ -391,8 +643,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 810, y: 2352}
-    spritePosition: {x: 2049, y: 1836}
+    uvTransform: {x: 2049, y: 7733}
+    spritePosition: {x: 1793, y: 1586}
   - name: Fridge1Rotated
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -400,8 +652,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 2352
+      x: 2049
+      y: 3881
       width: 395
       height: 768
     spriteID: 3fa159fad9bf8b64588d38ccec13fd4f
@@ -412,8 +664,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 2352}
-    spritePosition: {x: 3644, y: 1792}
+    uvTransform: {x: 2049, y: 3881}
+    spritePosition: {x: 3842, y: 980}
   - name: Fridge1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -421,8 +673,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 407
-      y: 2352
+      x: 2049
+      y: 4657
       width: 395
       height: 768
     spriteID: df24a638bc944a74f9c854ea417a22fd
@@ -433,8 +685,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 407, y: 2352}
-    spritePosition: {x: 3132, y: 1792}
+    uvTransform: {x: 2049, y: 4657}
+    spritePosition: {x: 3330, y: 980}
   - name: Cart1Rotated
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -442,8 +694,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 2590
-      y: 1775
+      x: 2049
+      y: 6443
       width: 484
       height: 437
     spriteID: b5293b1f031c8df4aa2077c1e3317f2b
@@ -454,8 +706,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 2590, y: 1775}
-    spritePosition: {x: 3343, y: 2560}
+    uvTransform: {x: 2049, y: 6443}
+    spritePosition: {x: 2412, y: 928}
   - name: Cart1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -463,8 +715,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 3082
-      y: 1775
+      x: 2049
+      y: 6888
       width: 484
       height: 437
     spriteID: a23f681538671604a8a0749560b5592c
@@ -475,8 +727,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 3082, y: 1775}
-    spritePosition: {x: 2831, y: 2560}
+    uvTransform: {x: 2049, y: 6888}
+    spritePosition: {x: 1900, y: 928}
   - name: Floor1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -484,8 +736,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 774
-      y: 1775
+      x: 1159
+      y: 7624
       width: 768
       height: 480
     spriteID: de014c49aca5b9a42b31f43a35fff0de
@@ -496,8 +748,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 774, y: 1775}
-    spritePosition: {x: 1, y: 1792}
+    uvTransform: {x: 1159, y: 7624}
+    spritePosition: {x: 128, y: 344}
   - name: Measurer1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -505,8 +757,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 1330
-      y: 2352
+      x: 774
+      y: 7523
       width: 288
       height: 504
     spriteID: 5be202d86c82a6b45a86dea61809858c
@@ -517,8 +769,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 1330, y: 2352}
-    spritePosition: {x: 880, y: 1792}
+    uvTransform: {x: 774, y: 7523}
+    spritePosition: {x: 1264, y: 264}
   - name: CashRegister1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -527,7 +779,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 1775
+      y: 7523
       width: 762
       height: 569
     spriteID: 228f09e41fb07844e9a6aa3238522e28
@@ -538,8 +790,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 1775}
-    spritePosition: {x: 1283, y: 1792}
+    uvTransform: {x: 4, y: 7523}
+    spritePosition: {x: 1974, y: 264}
   characterData:
     bones: []
     parts: []
@@ -650,68 +902,238 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: -1
-    spriteID: 11e2858da25b9eb478e91aeb676fe962
-    layerID: 43
+    spriteID: 0855129af44493b4b981d79865491ea5
+    layerID: 105
     mosaicPosition: {x: 0, y: 0}
     flatten: 0
     isImported: 0
     isVisible: 1
-  - name: Shelf1CornerRear
-    spriteName: Shelf1CornerRear
-    isGroup: 0
+  - name: RearNormal
+    spriteName: 
+    isGroup: 1
     parentIndex: 0
+    spriteID: 34e4271d2cef59749901b0c3ba22c0f5
+    layerID: 133
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Shelf1RearNormalTopRightCorner
+    spriteName: Shelf1RearNormalTopRightCorner
+    isGroup: 0
+    parentIndex: 1
+    spriteID: 354c087ee27dbc346ab346920bc8b9a1
+    layerID: 135
+    mosaicPosition: {x: 1159, y: 887}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Shelf1RearNormalTopLeftCorner
+    spriteName: Shelf1RearNormalTopLeftCorner
+    isGroup: 0
+    parentIndex: 1
+    spriteID: e0c04e9835b66df41b26840555546e45
+    layerID: 82
+    mosaicPosition: {x: 1159, y: 1881}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: RearCross
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 18c28bb42d132c74eb098b10ed484c78
+    layerID: 130
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Shelf1BottomRightRearCross
+    spriteName: Shelf1BottomRightRearCross
+    isGroup: 0
+    parentIndex: 4
+    spriteID: 7147d1ff201194c4a9acddfab941f7c9
+    layerID: 132
+    mosaicPosition: {x: 4, y: 4870}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Shelf1BottomLeftRearCross
+    spriteName: Shelf1BottomLeftRearCross
+    isGroup: 0
+    parentIndex: 4
+    spriteID: 414f8b8c4c29cf44c8cd5bf7c5155010
+    layerID: 87
+    mosaicPosition: {x: 4, y: 5755}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Cross
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 345180ee157fd704abc13a583fe41912
+    layerID: 120
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Shelf1TopRightCross
+    spriteName: Shelf1TopRightCross
+    isGroup: 0
+    parentIndex: 7
+    spriteID: 5c0889ee7b423524f8c51fa3cbc75cad
+    layerID: 140
+    mosaicPosition: {x: 4, y: 3108}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Shelf1TopLeftCross
+    spriteName: Shelf1TopLeftCross
+    isGroup: 0
+    parentIndex: 7
+    spriteID: 28434745d3178b2448a268df238cf8c2
+    layerID: 139
+    mosaicPosition: {x: 4, y: 3989}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Shelf1BottomRightCross
+    spriteName: Shelf1BottomRightCross
+    isGroup: 0
+    parentIndex: 7
+    spriteID: 33f3e2101c05ae44a85cff34eb3ccddc
+    layerID: 129
+    mosaicPosition: {x: 4, y: 6640}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Shelf1BottomLeftCross
+    spriteName: Shelf1BottomLeftCross
+    isGroup: 0
+    parentIndex: 7
+    spriteID: 9d3acdaa2dbe2764b994dcebe7d95649
+    layerID: 128
+    mosaicPosition: {x: 1159, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Rear
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 04b49adec06bdac4a8ff5add26a3a9b2
+    layerID: 113
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Shelf1RearBottomRightCorner
+    spriteName: Shelf1RearBottomRightCorner
+    isGroup: 0
+    parentIndex: 12
+    spriteID: 9602d5537fa299e47aad3a68c35c1d68
+    layerID: 119
+    mosaicPosition: {x: 1159, y: 2875}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Shelf1RearTopLeftCorner
+    spriteName: Shelf1RearTopLeftCorner
+    isGroup: 0
+    parentIndex: 12
+    spriteID: 8dbe18fc635a58346b02eee9ecd60f7d
+    layerID: 117
+    mosaicPosition: {x: 1159, y: 3869}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Shelf1RearTopRightCorner
+    spriteName: Shelf1RearTopRightCorner
+    isGroup: 0
+    parentIndex: 12
+    spriteID: 90946bf60360ecc4093b7b10f7abfd28
+    layerID: 77
+    mosaicPosition: {x: 4, y: 2332}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Shelf1RearBottomLeftCorner
+    spriteName: Shelf1RearBottomLeftCorner
+    isGroup: 0
+    parentIndex: 12
     spriteID: b47c02fd859895349afff68787039b98
     layerID: 51
     mosaicPosition: {x: 4, y: 4}
     flatten: 0
     isImported: 1
     isVisible: 1
-  - name: Shelf1CornerRearRotated
-    spriteName: Shelf1CornerRearRotated
-    isGroup: 0
-    parentIndex: 0
-    spriteID: 90946bf60360ecc4093b7b10f7abfd28
-    layerID: 77
-    mosaicPosition: {x: 2314, y: 4}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
   - name: Shelf1RotatedRear
     spriteName: Shelf1RotatedRear
     isGroup: 0
-    parentIndex: 0
+    parentIndex: 12
     spriteID: d98e8b04613c7e64e9f4520b73e3b6de
     layerID: 50
-    mosaicPosition: {x: 3420, y: 4}
+    mosaicPosition: {x: 2049, y: 777}
     flatten: 0
     isImported: 1
     isVisible: 1
   - name: Shelf1Rear
     spriteName: Shelf1Rear
     isGroup: 0
-    parentIndex: 0
+    parentIndex: 12
     spriteID: 7e0b94178cf65db4fb1f81470331a8d0
     layerID: 49
-    mosaicPosition: {x: 2082, y: 780}
+    mosaicPosition: {x: 2049, y: 1553}
     flatten: 0
     isImported: 1
     isVisible: 1
-  - name: Shelf1Corner
-    spriteName: Shelf1Corner
-    isGroup: 0
+  - name: Normal
+    spriteName: 
+    isGroup: 1
     parentIndex: 0
-    spriteID: a8ce5cd2f3aaf5242a4ff833ed2f0a6a
-    layerID: 46
-    mosaicPosition: {x: 1159, y: 4}
+    spriteID: 00a748d5dd436d44184685c3e44c7305
+    layerID: 111
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Shelf1TopRightCorner
+    spriteName: Shelf1TopRightCorner
+    isGroup: 0
+    parentIndex: 19
+    spriteID: aab86c209235acb4692275e472b182af
+    layerID: 93
+    mosaicPosition: {x: 4, y: 1556}
     flatten: 0
     isImported: 1
     isVisible: 1
-  - name: Shelf1CornerRotated
-    spriteName: Shelf1CornerRotated
+  - name: Shelf1TopLeftCorner
+    spriteName: Shelf1TopLeftCorner
     isGroup: 0
-    parentIndex: 0
-    spriteID: ca5b977af85357f41b7beb16e1d2a4bc
-    layerID: 69
+    parentIndex: 19
+    spriteID: df69e730202404446b24fecd17a6d03a
+    layerID: 110
+    mosaicPosition: {x: 1159, y: 4863}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Shelf1BottomRightCorner
+    spriteName: Shelf1BottomRightCorner
+    isGroup: 0
+    parentIndex: 19
+    spriteID: 8d9061a136148c74cb24709099e15a07
+    layerID: 96
+    mosaicPosition: {x: 1159, y: 5857}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Shelf1BottomLeftCorner
+    spriteName: Shelf1BottomLeftCorner
+    isGroup: 0
+    parentIndex: 19
+    spriteID: c42a22558fb137447a3c306bc934ab0e
+    layerID: 98
     mosaicPosition: {x: 4, y: 780}
     flatten: 0
     isImported: 1
@@ -719,20 +1141,20 @@ ScriptedImporter:
   - name: Shelf1Rotated
     spriteName: Shelf1Rotated
     isGroup: 0
-    parentIndex: 0
-    spriteID: e023a9f199162854082ad47a165829a5
-    layerID: 47
-    mosaicPosition: {x: 2750, y: 780}
+    parentIndex: 19
+    spriteID: ddc74ca585d9cde419e196c4d607d24c
+    layerID: 107
+    mosaicPosition: {x: 2049, y: 2329}
     flatten: 0
     isImported: 1
     isVisible: 1
   - name: Shelf1
     spriteName: Shelf1
     isGroup: 0
-    parentIndex: 0
-    spriteID: 854ed25ae7f8e6742a9b73eb7d15fc4f
-    layerID: 8
-    mosaicPosition: {x: 3418, y: 780}
+    parentIndex: 19
+    spriteID: cdddd00d3554ef74887821e2d027c081
+    layerID: 106
+    mosaicPosition: {x: 2049, y: 3105}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -749,20 +1171,20 @@ ScriptedImporter:
   - name: Shelf2Rotated
     spriteName: Shelf2Rotated
     isGroup: 0
-    parentIndex: 9
+    parentIndex: 26
     spriteID: 69289b2b00953af4ead473b11ddb5fd1
     layerID: 54
-    mosaicPosition: {x: 672, y: 780}
+    mosaicPosition: {x: 1159, y: 6851}
     flatten: 0
     isImported: 1
     isVisible: 1
   - name: Shelf2
     spriteName: Shelf2
     isGroup: 0
-    parentIndex: 9
+    parentIndex: 26
     spriteID: 5bf11397560aa6c439ddb51cadd009ee
     layerID: 6
-    mosaicPosition: {x: 1377, y: 780}
+    mosaicPosition: {x: 2049, y: 4}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -779,20 +1201,20 @@ ScriptedImporter:
   - name: Shelf3Rotated
     spriteName: Shelf3Rotated
     isGroup: 0
-    parentIndex: 12
+    parentIndex: 29
     spriteID: deb3b3029e817b54c9e7010615462a69
     layerID: 58
-    mosaicPosition: {x: 1550, y: 1775}
+    mosaicPosition: {x: 2049, y: 5433}
     flatten: 0
     isImported: 1
     isVisible: 1
   - name: Shelf3
     spriteName: Shelf3
     isGroup: 0
-    parentIndex: 12
+    parentIndex: 29
     spriteID: 7ffb8319c14b40c46828073399b5cfb7
     layerID: 5
-    mosaicPosition: {x: 2070, y: 1775}
+    mosaicPosition: {x: 2049, y: 5938}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -809,20 +1231,20 @@ ScriptedImporter:
   - name: Fridge2Rotated
     spriteName: Fridge2Rotated
     isGroup: 0
-    parentIndex: 15
+    parentIndex: 32
     spriteID: 95ff8ef41bda52348905cfe45faaf42c
     layerID: 61
-    mosaicPosition: {x: 3574, y: 1775}
+    mosaicPosition: {x: 2049, y: 7333}
     flatten: 0
     isImported: 1
     isVisible: 1
   - name: Fridge2
     spriteName: Fridge2
     isGroup: 0
-    parentIndex: 15
+    parentIndex: 32
     spriteID: 0b7c3af5ba214c94a9134e7534107740
     layerID: 4
-    mosaicPosition: {x: 810, y: 2352}
+    mosaicPosition: {x: 2049, y: 7733}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -839,20 +1261,20 @@ ScriptedImporter:
   - name: Fridge1Rotated
     spriteName: Fridge1Rotated
     isGroup: 0
-    parentIndex: 18
+    parentIndex: 35
     spriteID: 3fa159fad9bf8b64588d38ccec13fd4f
     layerID: 64
-    mosaicPosition: {x: 4, y: 2352}
+    mosaicPosition: {x: 2049, y: 3881}
     flatten: 0
     isImported: 1
     isVisible: 1
   - name: Fridge1
     spriteName: Fridge1
     isGroup: 0
-    parentIndex: 18
+    parentIndex: 35
     spriteID: df24a638bc944a74f9c854ea417a22fd
     layerID: 7
-    mosaicPosition: {x: 407, y: 2352}
+    mosaicPosition: {x: 2049, y: 4657}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -869,20 +1291,20 @@ ScriptedImporter:
   - name: Cart1Rotated
     spriteName: Cart1Rotated
     isGroup: 0
-    parentIndex: 21
+    parentIndex: 38
     spriteID: b5293b1f031c8df4aa2077c1e3317f2b
     layerID: 67
-    mosaicPosition: {x: 2590, y: 1775}
+    mosaicPosition: {x: 2049, y: 6443}
     flatten: 0
     isImported: 1
     isVisible: 1
   - name: Cart1
     spriteName: Cart1
     isGroup: 0
-    parentIndex: 21
+    parentIndex: 38
     spriteID: a23f681538671604a8a0749560b5592c
     layerID: 10
-    mosaicPosition: {x: 3082, y: 1775}
+    mosaicPosition: {x: 2049, y: 6888}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -892,7 +1314,7 @@ ScriptedImporter:
     parentIndex: -1
     spriteID: de014c49aca5b9a42b31f43a35fff0de
     layerID: 68
-    mosaicPosition: {x: 774, y: 1775}
+    mosaicPosition: {x: 1159, y: 7624}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -902,7 +1324,7 @@ ScriptedImporter:
     parentIndex: -1
     spriteID: 5be202d86c82a6b45a86dea61809858c
     layerID: 9
-    mosaicPosition: {x: 1330, y: 2352}
+    mosaicPosition: {x: 774, y: 7523}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -912,7 +1334,7 @@ ScriptedImporter:
     parentIndex: -1
     spriteID: 228f09e41fb07844e9a6aa3238522e28
     layerID: 3
-    mosaicPosition: {x: 4, y: 1775}
+    mosaicPosition: {x: 4, y: 7523}
     flatten: 0
     isImported: 1
     isVisible: 1

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: Shelf1Rotated
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 8466049072295302340, guid: 17dd316705660ae4f8901585f52fe81e, type: 3}
+  m_Sprite: {fileID: 611034815969266661, guid: 17dd316705660ae4f8901585f52fe81e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
