@@ -42,18 +42,3 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Road
-    uniqueID: 3361767035
-    locked: 0
-  - name: Background
-    uniqueID: 604540405
-    locked: 0
-  - name: NPC
-    uniqueID: 1983055133
-    locked: 0
-  - name: Player
-    uniqueID: 1336438529
-    locked: 0
-  - name: Foreground
-    uniqueID: 329482033
-    locked: 0
