@@ -101,8 +101,8 @@ ScriptedImporter:
   rigSpriteImportData:
   - name: Shelf1RearNormalTopRightCorner
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -122,8 +122,8 @@ ScriptedImporter:
     spritePosition: {x: 610, y: 1931}
   - name: Shelf1RearNormalTopLeftCorner
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -143,8 +143,8 @@ ScriptedImporter:
     spritePosition: {x: 225, y: 1931}
   - name: Shelf1BottomRightRearCross
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -164,8 +164,8 @@ ScriptedImporter:
     spritePosition: {x: 2036, y: 1954}
   - name: Shelf1BottomLeftRearCross
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -185,8 +185,8 @@ ScriptedImporter:
     spritePosition: {x: 1599, y: 1954}
   - name: Shelf1BottomRightCross
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -206,8 +206,8 @@ ScriptedImporter:
     spritePosition: {x: 2036, y: 2495}
   - name: Shelf1BottomLeftCross
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -227,8 +227,8 @@ ScriptedImporter:
     spritePosition: {x: 1599, y: 2495}
   - name: Shelf1TopRightCross
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -248,8 +248,8 @@ ScriptedImporter:
     spritePosition: {x: 2066, y: 3039}
   - name: Shelf1TopLeftCross
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -269,8 +269,8 @@ ScriptedImporter:
     spritePosition: {x: 1572, y: 3039}
   - name: Shelf1RearBottomRightCorner
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -290,8 +290,8 @@ ScriptedImporter:
     spritePosition: {x: 1107, y: 2705}
   - name: Shelf1RearTopLeftCorner
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -311,8 +311,8 @@ ScriptedImporter:
     spritePosition: {x: 225, y: 2705}
   - name: Shelf1RearTopRightCorner
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -332,8 +332,8 @@ ScriptedImporter:
     spritePosition: {x: 586, y: 2495}
   - name: Shelf1RearTopRightCorner
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -353,8 +353,8 @@ ScriptedImporter:
     spritePosition: {x: 586, y: 3035}
   - name: Shelf1RearRotated
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -374,8 +374,8 @@ ScriptedImporter:
     spritePosition: {x: 1666, y: 3536}
   - name: Shelf1Rear
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -395,8 +395,8 @@ ScriptedImporter:
     spritePosition: {x: 2031, y: 3536}
   - name: Shelf1BottomRightCorner
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -416,8 +416,8 @@ ScriptedImporter:
     spritePosition: {x: 1107, y: 3693}
   - name: Shelf1TopLeftCorner
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -437,8 +437,8 @@ ScriptedImporter:
     spritePosition: {x: 225, y: 3693}
   - name: Shelf1BottomLeftCorner
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -458,8 +458,8 @@ ScriptedImporter:
     spritePosition: {x: 586, y: 3483}
   - name: Shelf1TopRightCorner
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -479,8 +479,8 @@ ScriptedImporter:
     spritePosition: {x: 586, y: 4023}
   - name: Shelf1
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -500,8 +500,8 @@ ScriptedImporter:
     spritePosition: {x: 1666, y: 4009}
   - name: Shelf1Rotated
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -521,8 +521,8 @@ ScriptedImporter:
     spritePosition: {x: 2031, y: 4009}
   - name: Shelf2Rotated
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -542,8 +542,8 @@ ScriptedImporter:
     spritePosition: {x: 2157, y: 1361}
   - name: Shelf2
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -563,8 +563,8 @@ ScriptedImporter:
     spritePosition: {x: 1785, y: 1361}
   - name: Desk1Rotated
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -584,8 +584,8 @@ ScriptedImporter:
     spritePosition: {x: 439, y: 1361}
   - name: Desk1
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -605,8 +605,8 @@ ScriptedImporter:
     spritePosition: {x: 54, y: 1361}
   - name: Desk2Rotated
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -626,8 +626,8 @@ ScriptedImporter:
     spritePosition: {x: 1229, y: 1361}
   - name: Desk2
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -647,8 +647,8 @@ ScriptedImporter:
     spritePosition: {x: 851, y: 1361}
   - name: Desk3Rotated
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -668,8 +668,8 @@ ScriptedImporter:
     spritePosition: {x: 1674, y: 753}
   - name: Desk3
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -689,8 +689,8 @@ ScriptedImporter:
     spritePosition: {x: 1229, y: 753}
   - name: floor1
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
