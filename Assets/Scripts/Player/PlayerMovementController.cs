@@ -5,7 +5,7 @@ using UnityEngine.Tilemaps;
 
 public class PlayerMovementController : MonoBehaviour
 {
-    public float moveSpeed = 0.25f;
+    public float moveSpeed = 0.35f;
     public Tilemap walkableTilemap;
     public Animator animator;
     public Vector2 movement;
@@ -18,21 +18,29 @@ public class PlayerMovementController : MonoBehaviour
 
     void FixedUpdate()
     {
-        MovePlayer(movement);
+        MovePlayer();
     }
 
-    private void MovePlayer(Vector2 direction)
+    private void MovePlayer()
     {
-        movement.x = Input.GetAxisRaw("Horizontal");
-        movement.y = Input.GetAxisRaw("Vertical");
+        Vector2 direction = transform.position;
+        direction.x = movement.x = Input.GetAxisRaw("Horizontal");
+        direction.y = movement.y = (direction.x == 0) ? Input.GetAxisRaw("Vertical") : 0;
 
         Vector2 targetPosition = (Vector2)transform.position + direction * moveSpeed * Time.fixedDeltaTime;
 
+        if (!IsWalkable(targetPosition))
+        {
+            movement.x = 0;
+            movement.y = 0;
+
+            return;
+        }
 
         if (movement.y > 0 && movement.x == 0) {
-            movement.x = 0.6f;
+            movement.x = 1.2f;
         } else if (movement.y < 0 && movement.x == 0) {
-            movement.x = -0.6f;
+            movement.x = -1.2f;
         } else if (movement.y == 0 && movement.x != 0) {
             if (animator.GetBool("isFront")) {
                 movement.y = -0.6f;
@@ -41,15 +49,15 @@ public class PlayerMovementController : MonoBehaviour
             }
         }
 
-        if (!IsWalkable(targetPosition)) {
-            return;
-        }
-
         if (movement.x != 0) {
-            transform.localScale = new Vector3(Mathf.Sign(movement.x) * Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
+            transform.localScale = new Vector3(
+                Mathf.Sign(movement.x) * Mathf.Abs(transform.localScale.x),
+                transform.localScale.y,
+                transform.localScale.z
+            );
         }
 
-        transform.position = targetPosition;
+        transform.position = (Vector2)transform.position + movement * moveSpeed * Time.fixedDeltaTime;
     }
 
     private bool IsWalkable(Vector2 position)
