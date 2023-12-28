@@ -32,7 +32,7 @@ public class PlayerAnimationController : MonoBehaviour
 
             animator.SetBool("isIdle", false);
             animator.SetBool("isWalking", true);
-        } else {
+        } else if (movementController.movement.x == 0 && movementController.movement.y == 0) {
             animator.SetBool("isIdle", true);
             animator.SetBool("isWalking", false);
         }
