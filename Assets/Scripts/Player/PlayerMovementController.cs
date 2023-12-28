@@ -30,9 +30,9 @@ public class PlayerMovementController : MonoBehaviour
 
 
         if (movement.y > 0 && movement.x == 0) {
-            movement.x = 0.6f;
+            movement.x = 1.2f;
         } else if (movement.y < 0 && movement.x == 0) {
-            movement.x = -0.6f;
+            movement.x = -1.2f;
         } else if (movement.y == 0 && movement.x != 0) {
             if (animator.GetBool("isFront")) {
                 movement.y = -0.6f;
