@@ -9,6 +9,13 @@ public class PlayerAnimationController : MonoBehaviour
     public Animator animator;
     public PlayerMovementController movementController;
 
+    private void Start()
+    {
+        animator.SetBool("isFront", true);
+        animator.SetBool("isIdle", true);
+        animator.SetBool("isWalking", false);
+    }
+
     // Update is called once per frame
     void Update()
     {
