@@ -3,14 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-<<<<<<< Updated upstream
-  tags: []
-=======
   tags:
   - Unwalkable
-  - NpcGround
   - NPC
->>>>>>> Stashed changes
+  - NpcGround
+  - Ground
   layers:
   - Default
   - TransparentFX
@@ -47,4 +44,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: UI
+    uniqueID: 2125941485
     locked: 0
