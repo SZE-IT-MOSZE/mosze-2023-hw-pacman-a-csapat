@@ -1,18 +1,20 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class TimerController : MonoBehaviour
 {
+    private float totalTime;
     public float remainingTime;
     private float timeBarSizeUnitX;
-    public Text remainingTimeText;
-    public SpriteRenderer timerBar;
+    public TextMeshProUGUI remainingTimeText;
+    public Image timerBar;
 
     void Start()
     {
-        remainingTime = 240f;
+        totalTime = remainingTime = 240f;
 
-        timeBarSizeUnitX = timerBar.size.x / remainingTime;
+        timeBarSizeUnitX = timerBar.fillAmount / remainingTime;
 
         DontDestroyOnLoad(this);
     }
@@ -30,7 +32,7 @@ public class TimerController : MonoBehaviour
     void CalculateAndDisplayTime() {
         remainingTime -= Time.deltaTime;
 
-        timerBar.size = new Vector2(timeBarSizeUnitX * remainingTime, timerBar.size.y);
+        timerBar.fillAmount = remainingTime / totalTime;
 
         int hours = Mathf.FloorToInt(remainingTime / 3600f);
         int minutes = Mathf.FloorToInt((remainingTime % 3600f) / 60f);
