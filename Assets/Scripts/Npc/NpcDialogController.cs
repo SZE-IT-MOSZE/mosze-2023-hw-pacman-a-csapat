@@ -6,6 +6,7 @@ using TMPro;
 
 public class NpcDialogController : MonoBehaviour
 {
+    private TimerController timerController;
     private GameObject dialogBubble;
     private NpcMovementController movementController;
     public int secondsPenalty = 10;
@@ -14,6 +15,7 @@ public class NpcDialogController : MonoBehaviour
 
     private void Start()
     {
+        timerController = GameObject.Find("GameManager").GetComponent<TimerController>();
         movementController = this.gameObject.GetComponent<NpcMovementController>();
         dialogBubble = this.transform.Find("DialogBubble").gameObject;
         dialogBubble.SetActive(false);
@@ -44,6 +46,7 @@ public class NpcDialogController : MonoBehaviour
         dialogText.text = randomDialog;
 
         movementController.increaseStopTimer();
+        timerController.decreaseTime(secondsPenalty);
     }
 
     public void HideNpcDialog()

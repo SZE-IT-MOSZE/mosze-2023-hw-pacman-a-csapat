@@ -6,17 +6,14 @@ public class TimerController : MonoBehaviour
 {
     private float totalTime;
     public float remainingTime;
-    private float timeBarSizeUnitX;
-    public TextMeshProUGUI remainingTimeText;
-    public Image timerBar;
+    private TextMeshProUGUI timerClock;
+    private Image timerBar;
 
     void Start()
     {
+        timerClock = GameObject.Find("TimerClock").GetComponent<TextMeshProUGUI>();
+        timerBar = GameObject.Find("TimerBar").GetComponent<Image>();
         totalTime = remainingTime = 240f;
-
-        timeBarSizeUnitX = timerBar.fillAmount / remainingTime;
-
-        DontDestroyOnLoad(this);
     }
 
     void Update() {
@@ -29,7 +26,7 @@ public class TimerController : MonoBehaviour
         //PlayerPrefs.Save();
     }
 
-    void CalculateAndDisplayTime() {
+    private void CalculateAndDisplayTime() {
         remainingTime -= Time.deltaTime;
 
         timerBar.fillAmount = remainingTime / totalTime;
@@ -46,6 +43,11 @@ public class TimerController : MonoBehaviour
             formattedTime = string.Format("{0:00}:{1:00}", minutes, seconds);
         }
 
-        remainingTimeText.text = formattedTime;
+        timerClock.text = formattedTime;
+    }
+
+    public void decreaseTime(float time)
+    {
+        remainingTime -= time;
     }
 }

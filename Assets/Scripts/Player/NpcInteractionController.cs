@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class NpcInteractionController : MonoBehaviour
 {
-    private CapsuleCollider2D playerCollider;
     private GameObject interactedNpc;
     private NpcDialogController npcDialogController;
     private PlayerMovementController movementController;
@@ -12,7 +11,6 @@ public class NpcInteractionController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        playerCollider = this.gameObject.GetComponent<CapsuleCollider2D>();
         movementController = this.gameObject.GetComponent<PlayerMovementController>();
     }
 
