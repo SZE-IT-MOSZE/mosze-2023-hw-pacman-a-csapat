@@ -5,28 +5,17 @@ using UnityEngine.UI;
 public class TimerController : MonoBehaviour
 {
     private float totalTime;
-    public float remainingTime;
-    private float timeBarSizeUnitX;
+    public float remainingTime = 240f;
     public TextMeshProUGUI remainingTimeText;
     public Image timerBar;
 
-    void Start()
-    {
-        totalTime = remainingTime = 240f;
-
-        timeBarSizeUnitX = timerBar.fillAmount / remainingTime;
-
-        DontDestroyOnLoad(this);
+    void Start() {
+        totalTime = remainingTime;
+        ScoreManager.instance.IncreaseTotalTime(totalTime);
     }
 
     void Update() {
         CalculateAndDisplayTime();
-    }
-
-    public void SaveElapsedTime() {
-        // Idõ elmentése
-        //PlayerPrefs.SetFloat("ElapsedTime", 240f - remainingTime);
-        //PlayerPrefs.Save();
     }
 
     void CalculateAndDisplayTime() {
@@ -47,5 +36,9 @@ public class TimerController : MonoBehaviour
         }
 
         remainingTimeText.text = formattedTime;
+    }
+
+    void OnDestroy() {
+        ScoreManager.instance.IncreaseTotalTimeLeft(remainingTime);
     }
 }
