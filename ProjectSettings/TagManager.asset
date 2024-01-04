@@ -7,6 +7,7 @@ TagManager:
   - Unwalkable
   - NPC
   - NpcGround
+  - Ground
   - CollectablesGround
   - FruitCollectable
   - BookCollectable
@@ -46,4 +47,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: UI
+    uniqueID: 2125941485
     locked: 0

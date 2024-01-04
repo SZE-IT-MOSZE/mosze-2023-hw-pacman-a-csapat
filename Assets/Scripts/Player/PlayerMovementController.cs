@@ -9,11 +9,18 @@ public class PlayerMovementController : MonoBehaviour
     public Tilemap walkableTilemap;
     public Animator animator;
     public Vector2 movement;
+    public float stopTimerTime = 2;
+    public float stopTimer = 0;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        walkableTilemap = GameObject.FindGameObjectWithTag("Ground").GetComponent<Tilemap>();
+    }
+
+    private void Update()
+    {
+        HandleStopTimer();
     }
 
     void FixedUpdate()
@@ -29,7 +36,7 @@ public class PlayerMovementController : MonoBehaviour
 
         Vector2 targetPosition = (Vector2)transform.position + direction * moveSpeed * Time.fixedDeltaTime;
 
-        if (!IsWalkable(targetPosition))
+        if (!IsWalkable(targetPosition) || stopTimer > 0)
         {
             movement.x = 0;
             movement.y = 0;
@@ -58,6 +65,19 @@ public class PlayerMovementController : MonoBehaviour
         }
 
         transform.position = (Vector2)transform.position + movement * moveSpeed * Time.fixedDeltaTime;
+    }
+
+    public void increaseStopTimer()
+    {
+        stopTimer += stopTimerTime;
+    }
+
+    private void HandleStopTimer()
+    {
+        if (stopTimer >= 0.0f)
+        {
+            stopTimer -= Time.deltaTime;
+        }
     }
 
     private bool IsWalkable(Vector2 position)
