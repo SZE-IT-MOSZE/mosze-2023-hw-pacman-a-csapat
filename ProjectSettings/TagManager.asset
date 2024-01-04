@@ -3,14 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-<<<<<<< Updated upstream
-  tags: []
-=======
   tags:
   - Unwalkable
-  - NpcGround
   - NPC
->>>>>>> Stashed changes
+  - NpcGround
+  - CollectablesGround
+  - FruitCollectable
+  - BookCollectable
   layers:
   - Default
   - TransparentFX
