@@ -34,7 +34,7 @@ public class MainMenuController : MonoBehaviour {
             yield return new WaitForSeconds(.01f);
         }
 
-        while (!operation.isDone && !operation.allowSceneActivation) {
+        while (!operation.isDone) {
 
             progressBar._fillAmount = progressValue - .8f;
 
