@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5487170317039717518
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8183135698579576391}
+  - component: {fileID: 3512054815337362842}
+  - component: {fileID: 4626667170184845928}
+  - component: {fileID: 7938389731661211100}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8183135698579576391
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5487170317039717518}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.9923507, y: -7.0335584, z: -0.02841216}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3512054815337362842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5487170317039717518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b4ddcb4335807c44ab1b8e03193a702, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4626667170184845928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5487170317039717518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1099ab0acc6aef4aae17c1fe70368e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxNpcSpawnPerType: 0
+  maxCollectableFruits: 6
+  maxCollectableBooks: 6
+  fruitText: {fileID: 0}
+  bookText: {fileID: 0}
+  npcPrefabs:
+  - {fileID: 7372865446266542125, guid: 8fcb729b6e6e982489cfcd999aa5c86d, type: 3}
+  - {fileID: 4655095488952274238, guid: 1b1b2fb4facd32d419a84bbd505ca310, type: 3}
+  fruitPrefabs:
+  - {fileID: 5993353906187584653, guid: 43df3b0c798150348a590f9e3e6cf753, type: 3}
+  - {fileID: 5993353906187584653, guid: 2103ce48c4452a147acaf3dc714f5b3d, type: 3}
+  bookPrefabs:
+  - {fileID: 5993353906187584653, guid: 91a76a5f21d7ac0498c0b858eed07c28, type: 3}
+  - {fileID: 5993353906187584653, guid: a03a978faf612ff4bbc25ba24bce20eb, type: 3}
+--- !u!114 &7938389731661211100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5487170317039717518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e58b2c03672ff8f41a68e482dcd9d912, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  remainingTime: 240
+  remainingTimeText: {fileID: 0}
+  timerBar: {fileID: 0}
