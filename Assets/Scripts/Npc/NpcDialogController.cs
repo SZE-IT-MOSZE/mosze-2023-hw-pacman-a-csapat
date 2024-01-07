@@ -46,7 +46,7 @@ public class NpcDialogController : MonoBehaviour
         dialogText.text = randomDialog;
 
         movementController.increaseStopTimer();
-        timerController.decreaseTime(secondsPenalty);
+        //timerController.decreaseTime(secondsPenalty);
     }
 
     public void HideNpcDialog()
