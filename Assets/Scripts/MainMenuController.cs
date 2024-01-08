@@ -34,7 +34,7 @@ public class MainMenuController : MonoBehaviour {
             yield return new WaitForSeconds(.01f);
         }
 
-        while (!operation.isDone && !operation.allowSceneActivation) {
+        while (!operation.isDone) {
 
             progressBar._fillAmount = progressValue - .8f;
 
@@ -61,7 +61,7 @@ public class MainMenuController : MonoBehaviour {
 
         yield return new WaitForSeconds(transitionDuration - .6f);
 
-        progressBar.GetComponent<RectTransform>().DOMoveY(-130f, transitionDuration - .3f).SetEase(Ease.OutQuad).SetRelative(true);
+        progressBar.GetComponent<RectTransform>().DOMoveY(-140f, transitionDuration - .3f).SetEase(Ease.OutQuad).SetRelative(true);
 
         yield return new WaitForSeconds(transitionDuration - .3f);
 
@@ -70,8 +70,6 @@ public class MainMenuController : MonoBehaviour {
         
     public void NewGame()
     {
-        // SceneManager.LoadScene(newGameScene);
-        // moveOutUIElements();
         StartCoroutine(MoveOutUIElements());
     }
 

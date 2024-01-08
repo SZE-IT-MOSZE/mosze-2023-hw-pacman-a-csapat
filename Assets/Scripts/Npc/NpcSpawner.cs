@@ -5,11 +5,13 @@ using UnityEngine.Tilemaps;
 
 public class NpcSpawner : MonoBehaviour
 {
-    public Tilemap tilemap;
+    private Tilemap tilemap;
     private Vector3 tileOffset = new Vector3(0, -0.15f, 0);
 
     void Start()
     {
+
+        tilemap = GameObject.FindGameObjectWithTag("NpcGround").GetComponent<Tilemap>();
         Vector3Int randomTilePosition = GetRandomTile();
         if (randomTilePosition != Vector3Int.zero) {
             Vector3 worldPosition = tilemap.CellToWorld(randomTilePosition) + tileOffset;
