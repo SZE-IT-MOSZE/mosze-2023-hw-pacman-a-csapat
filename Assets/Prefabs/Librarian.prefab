@@ -281,6 +281,7 @@ GameObject:
   - component: {fileID: 6223068668906352976}
   - component: {fileID: 1640780764052988498}
   - component: {fileID: -244634341669939729}
+  - component: {fileID: 1288365682965542372}
   m_Layer: 0
   m_Name: Librarian
   m_TagString: NPC
@@ -366,6 +367,8 @@ MonoBehaviour:
   moveSpeed: 0.35
   movement: {x: 0, y: 0}
   direction: {x: 0, y: 0}
+  stopTimerTime: 2
+  stopTimer: 0
 --- !u!114 &6223068668906352976
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -452,6 +455,23 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
+--- !u!114 &1288365682965542372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7372865446266542125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86992422f67937e4fba0e1d7777855d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  secondsPenalty: 10
+  dialogs:
+  - Tscsssss, halkabban!
+  - "Ne rohanjon ennyire legyensz\xEDves!"
+  - "Egy pillanat, ezt m\xE9g ide felrakom."
 --- !u!1001 &2531045914681459114
 PrefabInstance:
   m_ObjectHideFlags: 0

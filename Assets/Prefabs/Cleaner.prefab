@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 3108139238247869316}
   - component: {fileID: -1197801141277402788}
   - component: {fileID: 3534162940079840033}
+  - component: {fileID: 7240976559021639268}
   m_Layer: 0
   m_Name: Cleaner
   m_TagString: NPC
@@ -102,6 +103,8 @@ MonoBehaviour:
   moveSpeed: 0.2
   movement: {x: 0, y: 0}
   direction: {x: 0, y: 0}
+  stopTimerTime: 2
+  stopTimer: 0
 --- !u!61 &-1197801141277402788
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -174,6 +177,24 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
+--- !u!114 &7240976559021639268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4655095488952274238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86992422f67937e4fba0e1d7777855d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  secondsPenalty: 10
+  dialogs:
+  - "Nehogy elcs\xFAsszon, fiatalember!"
+  - "Eln\xE9z\xE9st, itt m\xE9g felt\xF6rl\xF6m ezt gyorsan."
+  - "Bocs\xE1nat, fel tudn\xE1 emelni nekem ezt?"
+  - "K\xE9rem, ezeket a k\xF6nyveket ide tenn\xE9 nekem?"
 --- !u!1 &6893129894400644664
 GameObject:
   m_ObjectHideFlags: 0

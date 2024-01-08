@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 2695199779668201506}
   - component: {fileID: 4663359808922668714}
   - component: {fileID: 7074595569015234284}
+  - component: {fileID: 8093348470073586056}
   m_Layer: 0
   m_Name: Security
   m_TagString: NPC
@@ -101,6 +102,8 @@ MonoBehaviour:
   moveSpeed: 0.35
   movement: {x: 0, y: 0}
   direction: {x: 0, y: 0}
+  stopTimerTime: 2
+  stopTimer: 0
 --- !u!114 &2695199779668201506
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -187,6 +190,24 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
+--- !u!114 &8093348470073586056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5488049008248055167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86992422f67937e4fba0e1d7777855d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  secondsPenalty: 10
+  dialogs:
+  - "Nincs baj f\u0151n\xF6k, v\xE1s\xE1rolj csak."
+  - "\xD3vatosabban, figyelj oda merre l\xE9psz!"
+  - Fogalmam sincsen mi hol van.
+  - "Tegnap balh\xE9 volt, majdnem \xFCtni kellett."
 --- !u!1 &6033260332229827274
 GameObject:
   m_ObjectHideFlags: 0
