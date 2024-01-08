@@ -66,6 +66,10 @@ public class SceneController : MonoBehaviour
         StartCoroutine(AsyncLoadScene(cityScene, true));
     }
 
+    public void ExitGame() {
+        Application.Quit();
+    }
+
     void Update() {
 
     }
