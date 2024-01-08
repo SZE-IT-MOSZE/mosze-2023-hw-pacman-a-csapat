@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d1fe0bc1ac9782f4c8f875e1a7cea6d7
+guid: e92f09446d8e1e94d81ea370891e567d
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -8,9 +8,8 @@ TrueTypeFontImporter:
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
-  fontName: Poppins
   fontNames:
-  - Poppins
+  - DejaVu Sans
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
