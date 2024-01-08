@@ -61,6 +61,8 @@ public class TimerController : MonoBehaviour
     }
 
     void OnDestroy() {
-        ScoreManager.instance.IncreaseTotalTimeLeft(remainingTime);
+        if(ScoreManager.instance) {
+            ScoreManager.instance.IncreaseTotalTimeLeft(remainingTime);
+        }
     }
 }
