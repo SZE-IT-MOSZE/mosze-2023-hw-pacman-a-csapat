@@ -9935,11 +9935,11 @@ PrefabInstance:
     - target: {fileID: 4914005754444463814, guid: 7678f863df9d4dd47967ca58323df318, type: 3}
       propertyPath: npcPrefabs.Array.data[0]
       value: 
-      objectReference: {fileID: 8728610964048191903, guid: e20923bdb6d74eb4888acabb9208ec35, type: 3}
+      objectReference: {fileID: 6060721941123032258, guid: 6020d0c5e80be1f4b8a216e423a84ef7, type: 3}
     - target: {fileID: 4914005754444463814, guid: 7678f863df9d4dd47967ca58323df318, type: 3}
       propertyPath: npcPrefabs.Array.data[1]
       value: 
-      objectReference: {fileID: 945354353890553781, guid: bc751de4cb6a4324e901b168399ae451, type: 3}
+      objectReference: {fileID: 5488049008248055167, guid: 691872cf987440347b683078f607479c, type: 3}
     - target: {fileID: 5471637425053705318, guid: 7678f863df9d4dd47967ca58323df318, type: 3}
       propertyPath: m_Name
       value: LevelManager
