@@ -15,7 +15,7 @@ public class NpcDialogController : MonoBehaviour
 
     private void Start()
     {
-        timerController = GameObject.Find("GameManager").GetComponent<TimerController>();
+        timerController = GameObject.Find("LevelManager").GetComponent<TimerController>();
         movementController = this.gameObject.GetComponent<NpcMovementController>();
         dialogBubble = this.transform.Find("DialogBubble").gameObject;
         dialogBubble.SetActive(false);
