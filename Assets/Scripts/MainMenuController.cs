@@ -52,16 +52,16 @@ public class MainMenuController : MonoBehaviour {
 
     IEnumerator MoveOutUIElements() {
         RectTransform playButtonRect = playButton.GetComponent<RectTransform>();
-        playButtonRect.DOMoveX(120f, transitionDuration).SetEase(Ease.OutQuad).SetRelative(true);
+        playButtonRect.DOMoveX(100f, transitionDuration).SetEase(Ease.OutQuad).SetRelative(true);
 
         RectTransform exitButtonRect = exitButton.GetComponent<RectTransform>();
-        exitButtonRect.DOMoveX(120f, transitionDuration).SetEase(Ease.OutQuad).SetRelative(true);
+        exitButtonRect.DOMoveX(100f, transitionDuration).SetEase(Ease.OutQuad).SetRelative(true);
 
-        logo.DOMoveY(80f, transitionDuration).SetEase(Ease.OutQuad).SetRelative(true);
+        logo.DOMoveY(90f, transitionDuration).SetEase(Ease.OutQuad).SetRelative(true);
 
         yield return new WaitForSeconds(transitionDuration - .6f);
 
-        progressBar.GetComponent<RectTransform>().DOMoveY(-140f, transitionDuration - .3f).SetEase(Ease.OutQuad).SetRelative(true);
+        progressBar.GetComponent<RectTransform>().DOMoveY(-105f, transitionDuration - .3f).SetEase(Ease.OutQuad).SetRelative(true);
 
         yield return new WaitForSeconds(transitionDuration - .3f);
 

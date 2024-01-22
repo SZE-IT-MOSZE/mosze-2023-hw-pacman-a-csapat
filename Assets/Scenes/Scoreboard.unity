@@ -1074,10 +1074,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1375287389}
   - component: {fileID: 1375287395}
-  - component: {fileID: 1375287396}
   - component: {fileID: 1375287394}
   - component: {fileID: 1375287393}
   - component: {fileID: 1375287392}
+  - component: {fileID: 1375287396}
   m_Layer: 5
   m_Name: ScoreboardCanvas
   m_TagString: Untagged
