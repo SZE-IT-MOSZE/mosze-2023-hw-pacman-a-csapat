@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.Tilemaps;
 
 public class NpcMovementController : MonoBehaviour
@@ -23,6 +24,12 @@ public class NpcMovementController : MonoBehaviour
         walkableTilemap = GameObject.FindGameObjectWithTag("NpcGround").GetComponent<Tilemap>();
         animator = this.GetComponent<Animator>();
         direction = movement = ChooseNewDirection();
+
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+
+        if (currentSceneIndex == 2 || currentSceneIndex == 3) {
+            moveOffset = new Vector2(1f, 0.5f);
+        }
     }
 
     private void Update()

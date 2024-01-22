@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.Tilemaps;
 
 public class PlayerMovementController : MonoBehaviour
@@ -11,11 +12,23 @@ public class PlayerMovementController : MonoBehaviour
     public Vector2 movement;
     public float stopTimerTime = 2;
     public float stopTimer = 0;
+    private float moveOffsetX;
+    private float moveOffsetY;
 
     // Start is called before the first frame update
     void Start()
     {
         walkableTilemap = GameObject.FindGameObjectWithTag("Ground").GetComponent<Tilemap>();
+
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+
+        if (currentSceneIndex == 2 || currentSceneIndex == 3) {
+            moveOffsetX = 1f;
+            moveOffsetY = .5f;
+        } else {
+            moveOffsetX = 1.2f;
+            moveOffsetY = .6f;
+        }
     }
 
     private void Update()
@@ -45,14 +58,14 @@ public class PlayerMovementController : MonoBehaviour
         }
 
         if (movement.y > 0 && movement.x == 0) {
-            movement.x = 1.2f;
+            movement.x = moveOffsetX;
         } else if (movement.y < 0 && movement.x == 0) {
-            movement.x = -1.2f;
+            movement.x = -moveOffsetX;
         } else if (movement.y == 0 && movement.x != 0) {
             if (animator.GetBool("isFront")) {
-                movement.y = -0.6f;
+                movement.y = -moveOffsetY;
             } else if (animator.GetBool("isRear")) {
-                movement.y = 0.6f;
+                movement.y = moveOffsetY;
             }
         }
 

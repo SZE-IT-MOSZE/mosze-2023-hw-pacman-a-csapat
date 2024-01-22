@@ -13,11 +13,12 @@ public class ScoreManager : MonoBehaviour
     public float totalTimeLeft { get; private set; }
 
     private void Awake() {
-        instance = this;
-    }
-
-    void Start() {
-        DontDestroyOnLoad(gameObject);
+        if (instance == null) {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        } else {
+            Destroy(gameObject);
+        }
     }
 
     public void AddCollectedTotalFruit() {
