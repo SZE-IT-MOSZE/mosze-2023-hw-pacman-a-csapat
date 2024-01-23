@@ -4,20 +4,47 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.Tilemaps;
 
-public class PlayerMovementController : MonoBehaviour
-{
+/// <summary>
+/// A játékos mozgását kezelõ osztály.
+/// </summary>
+public class PlayerMovementController : MonoBehaviour {
+    /// <summary>
+    /// A játékos mozgási sebessége.
+    /// </summary>
     public float moveSpeed = 0.35f;
+
+    /// <summary>
+    /// A járható csempetérkép (Tilemap).
+    /// </summary>
     public Tilemap walkableTilemap;
+
+    /// <summary>
+    /// Az animációkat vezérlõ Animator komponens.
+    /// </summary>
     public Animator animator;
+
+    /// <summary>
+    /// A játékos mozgásának iránya.
+    /// </summary>
     public Vector2 movement;
+
+    /// <summary>
+    /// Az idõzítõt jelzõ idõ.
+    /// </summary>
     public float stopTimerTime = 2;
+
+    /// <summary>
+    /// Az aktuális idõzítõ értéke.
+    /// </summary>
     public float stopTimer = 0;
+
     private float moveOffsetX;
     private float moveOffsetY;
 
-    // Start is called before the first frame update
-    void Start()
-    {
+    /// <summary>
+    /// A kezdeti beállításokat végzõ metódus, meghívódik az elsõ képkocka elõtt.
+    /// </summary>
+    void Start() {
         walkableTilemap = GameObject.FindGameObjectWithTag("Ground").GetComponent<Tilemap>();
 
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
@@ -31,26 +58,31 @@ public class PlayerMovementController : MonoBehaviour
         }
     }
 
-    private void Update()
-    {
+    /// <summary>
+    /// Az idõzítõt kezelõ és frissítõ metódus, meghívódik minden képkockában.
+    /// </summary>
+    private void Update() {
         HandleStopTimer();
     }
 
-    void FixedUpdate()
-    {
+    /// <summary>
+    /// A fizikai szimulációk frissítésekor meghívódó metódus.
+    /// </summary>
+    void FixedUpdate() {
         MovePlayer();
     }
 
-    private void MovePlayer()
-    {
+    /// <summary>
+    /// A játékos mozgatását végzõ metódus.
+    /// </summary>
+    private void MovePlayer() {
         Vector2 direction = transform.position;
         direction.x = movement.x = Input.GetAxisRaw("Horizontal");
         direction.y = movement.y = (direction.x == 0) ? Input.GetAxisRaw("Vertical") : 0;
 
         Vector2 targetPosition = (Vector2)transform.position + direction * moveSpeed * Time.fixedDeltaTime;
 
-        if (!IsWalkable(targetPosition) || stopTimer > 0)
-        {
+        if (!IsWalkable(targetPosition) || stopTimer > 0) {
             movement.x = 0;
             movement.y = 0;
 
@@ -80,21 +112,28 @@ public class PlayerMovementController : MonoBehaviour
         transform.position = (Vector2)transform.position + movement * moveSpeed * Time.fixedDeltaTime;
     }
 
-    public void increaseStopTimer()
-    {
+    /// <summary>
+    /// Az idõzítõt növelõ metódus.
+    /// </summary>
+    public void IncreaseStopTimer() {
         stopTimer += stopTimerTime;
     }
 
-    private void HandleStopTimer()
-    {
-        if (stopTimer >= 0.0f)
-        {
+    /// <summary>
+    /// Az idõzítõt kezelõ metódus.
+    /// </summary>
+    private void HandleStopTimer() {
+        if (stopTimer >= 0.0f) {
             stopTimer -= Time.deltaTime;
         }
     }
 
-    private bool IsWalkable(Vector2 position)
-    {
+    /// <summary>
+    /// Ellenõrzi, hogy a célpozíció járható-e.
+    /// </summary>
+    /// <param name="position">A célpozíció a világban.</param>
+    /// <returns>True, ha a célpozíció járható, egyébként false.</returns>
+    private bool IsWalkable(Vector2 position) {
         Vector3Int cellPosition = walkableTilemap.WorldToCell(position);
         bool hasTile = walkableTilemap.HasTile(cellPosition);
 
