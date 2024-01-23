@@ -3,16 +3,27 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
-public class NpcSpawner : MonoBehaviour
-{
+/// <summary>
+/// Az NPC-k spawnolását kezelõ osztály.
+/// </summary>
+public class NpcSpawner : MonoBehaviour {
+    /// <summary>
+    /// A Tilemap objektum, ahol az NPC-k elhelyezkednek.
+    /// </summary>
     private Tilemap tilemap;
+
+    /// <summary>
+    /// Az NPC-k elhelyezésének eltolása.
+    /// </summary>
     private Vector3 tileOffset = new Vector3(0, -0.15f, 0);
 
-    void Start()
-    {
-
+    /// <summary>
+    /// Kezdeti beállításokat végzõ metódus, meghívódik az elsõ képkocka elõtt.
+    /// </summary>
+    void Start() {
         tilemap = GameObject.FindGameObjectWithTag("NpcGround").GetComponent<Tilemap>();
         Vector3Int randomTilePosition = GetRandomTile();
+
         if (randomTilePosition != Vector3Int.zero) {
             Vector3 worldPosition = tilemap.CellToWorld(randomTilePosition) + tileOffset;
             worldPosition.z = 0;
@@ -21,22 +32,26 @@ public class NpcSpawner : MonoBehaviour
         }
     }
 
-    Vector3Int GetRandomTile()
-    {
+    /// <summary>
+    /// Véletlenszerûen kiválaszt egy járható csempét a Tilemap-en.
+    /// </summary>
+    /// <returns>A véletlenszerûen kiválasztott járható csempének a világ koordinátái.</returns>
+    Vector3Int GetRandomTile() {
         BoundsInt bounds = tilemap.cellBounds;
         TileBase tile = null;
         Vector3Int randomPosition = Vector3Int.zero;
 
         bool hasTile = false;
+
         foreach (var pos in bounds.allPositionsWithin) {
             if (tilemap.HasTile(pos)) {
                 hasTile = true;
-
                 break;
             }
         }
 
-        if (!hasTile) return Vector3Int.zero;
+        if (!hasTile)
+            return Vector3Int.zero;
 
         while (tile == null) {
             int x = Random.Range(bounds.xMin, bounds.xMax);

@@ -2,37 +2,56 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NpcAnimationController : MonoBehaviour
-{
+/// <summary>
+/// Az NPC animációkat vezérlõ osztály.
+/// </summary>
+public class NpcAnimationController : MonoBehaviour {
+    /// <summary>
+    /// A játékos elülsõ nézet objektuma.
+    /// </summary>
     public GameObject FrontPlayerView;
+
+    /// <summary>
+    /// A játékos hátsó nézet objektuma.
+    /// </summary>
     public GameObject RearPlayerView;
+
+    /// <summary>
+    /// Az animátor komponens.
+    /// </summary>
     private Animator animator;
+
+    /// <summary>
+    /// Az NPC mozgásvezérlõ osztály.
+    /// </summary>
     private NpcMovementController movementController;
 
-    private void Start()
-    {
+    /// <summary>
+    /// Kezdeti beállításokat végzõ metódus, meghívódik az elsõ képkocka elõtt.
+    /// </summary>
+    private void Start() {
         animator = this.GetComponent<Animator>();
         movementController = this.GetComponent<NpcMovementController>();
         animator.SetBool("isFront", true);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
+    /// <summary>
+    /// Az osztály frissítését végzõ metódus, meghívódik minden képkockában.
+    /// </summary>
+    void Update() {
         AnimateNpc();
     }
 
-    private void AnimateNpc()
-    {
-        if (movementController.movement.y > 0)
-        {
+    /// <summary>
+    /// Az NPC animációját kezelõ metódus.
+    /// </summary>
+    private void AnimateNpc() {
+        if (movementController.movement.y > 0) {
             RearPlayerView.SetActive(true);
             FrontPlayerView.SetActive(false);
             animator.SetBool("isFront", false);
             animator.SetBool("isRear", true);
-        }
-        else if (movementController.movement.y < 0)
-        {
+        } else if (movementController.movement.y < 0) {
             RearPlayerView.SetActive(false);
             FrontPlayerView.SetActive(true);
             animator.SetBool("isFront", true);

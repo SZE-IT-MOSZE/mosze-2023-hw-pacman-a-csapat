@@ -2,41 +2,60 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NpcInteractionController : MonoBehaviour
-{
+/// <summary>
+/// Az NPC interakciókat kezelõ osztály.
+/// </summary>
+public class NpcInteractionController : MonoBehaviour {
+    /// <summary>
+    /// Az éppen interakcióban lévõ NPC játékobjektuma.
+    /// </summary>
     private GameObject interactedNpc;
+
+    /// <summary>
+    /// Az NPC párbeszédvezérlõ osztálya.
+    /// </summary>
     private NpcDialogController npcDialogController;
+
+    /// <summary>
+    /// A játékos mozgását vezérlõ osztály.
+    /// </summary>
     private PlayerMovementController movementController;
 
-    // Start is called before the first frame update
-    void Start()
-    {
+    /// <summary>
+    /// Kezdeti beállításokat végzõ metódus, meghívódik az elsõ képkocka elõtt.
+    /// </summary>
+    void Start() {
         movementController = this.gameObject.GetComponent<PlayerMovementController>();
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
+    /// <summary>
+    /// Kollízió belépés eseménykezelõ.
+    /// </summary>
+    /// <param name="collision">A kollízióval érintkezõ másik objektum.</param>
+    private void OnCollisionEnter2D(Collision2D collision) {
         GameObject collidedGameObject = collision.gameObject;
-        if (collidedGameObject.CompareTag("NPC"))
-        {
+        if (collidedGameObject.CompareTag("NPC")) {
             interactedNpc = collidedGameObject;
             npcDialogController = interactedNpc.GetComponent<NpcDialogController>();
             npcDialogController.ShowNpcDialog();
-            movementController.increaseStopTimer();
+            movementController.IncreaseStopTimer();
         }
     }
 
-    private void OnCollisionExit2D(Collision2D collision)
-    {
-        if (npcDialogController)
-        {
+    /// <summary>
+    /// Kollízió kilépés eseménykezelõ.
+    /// </summary>
+    /// <param name="collision">A kollízióval érintkezõ másik objektum.</param>
+    private void OnCollisionExit2D(Collision2D collision) {
+        if (npcDialogController) {
             npcDialogController.HideNpcDialog();
         }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
+    /// <summary>
+    /// Az osztály frissítését végzõ metódus, meghívódik minden képkockában.
+    /// </summary>
+    void Update() {
+        // Update metódus jelenleg üres.
     }
 }
